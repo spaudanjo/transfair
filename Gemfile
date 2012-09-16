@@ -60,6 +60,10 @@ group :test do
   gem 'launchy'
 end
 
+group :development, :test do
+  gem 'vagrant'
+end
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
